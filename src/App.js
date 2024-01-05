@@ -1,4 +1,3 @@
-import react from 'react';
 import './App.css';
 import './css/Media.css';
 import Navigation from "./components/Navigation.jsx";
