@@ -1,3 +1,10 @@
+@media screen and (max-width: 1127px){
+    .container-box{
+        margin-bottom: 40px;
+        padding: 20px;
+    }
+}
+
 @media screen and (max-width: 992px) {
     .products{
         display: none;
@@ -27,6 +34,9 @@
     }
     .more-products-container-spacing{
         justify-content: center;
+    }
+    .container-box{
+        margin-bottom: 40px;
     }
 }
 
