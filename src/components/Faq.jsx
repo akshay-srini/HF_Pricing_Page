@@ -1,4 +1,3 @@
-import {useState} from "react";
 import { FaAngleDown } from "react-icons/fa6";
 
 export default function Faq() {
@@ -7,48 +6,6 @@ export default function Faq() {
         <section className="faq-section">
             <div className="faq-container active">
                 <h3>Frequently Asked Questions</h3>
-                {/* <div className={`whole-question-container ${isActive ? 'active' : ''}`} onClick={toggleAccordion}>
-                    <div className="question-container">
-                        <p className="question-text">Who are help desk agents?</p>
-                        <FaAngleDown />
-                    </div>
-                    {isActive && (<div className="answer-container border-bottom answer-container-active">
-                        <p className="answer-text">Support agents (help desk staff) who will be actively managing and responding to tickets raised by contacts.</p>                    
-                    </div>)}
-                </div>
-                <div className={`whole-question-container ${isActive ? 'active' : ''}`} onClick={toggleAccordion}>
-                    <div className="question-container">
-                        <p className="question-text">Who are help desk agents?</p>
-                        <FaAngleDown />
-                    </div>
-                    {isActive && (<div className="answer-container border-bottom answer-container-active">
-                        <p className="answer-text">Support agents (help desk staff) who will be actively managing and responding to tickets raised by contacts.</p>                    
-                    </div>)}
-                </div><div className={`whole-question-container ${isActive ? 'active' : ''}`} onClick={toggleAccordion}>
-                    <div className="question-container">
-                        <p className="question-text">Who are help desk agents?</p>
-                        <FaAngleDown />
-                    </div>
-                    {isActive && (<div className="answer-container border-bottom answer-container-active">
-                        <p className="answer-text">Support agents (help desk staff) who will be actively managing and responding to tickets raised by contacts.</p>                    
-                    </div>)}
-                </div><div className={`whole-question-container ${isActive ? 'active' : ''}`} onClick={toggleAccordion}>
-                    <div className="question-container">
-                        <p className="question-text">Who are help desk agents?</p>
-                        <FaAngleDown />
-                    </div>
-                    {isActive && (<div className="answer-container border-bottom answer-container-active">
-                        <p className="answer-text">Support agents (help desk staff) who will be actively managing and responding to tickets raised by contacts.</p>                    
-                    </div>)}
-                </div><div className={`whole-question-container ${isActive ? 'active' : ''}`} onClick={toggleAccordion}>
-                    <div className="question-container">
-                        <p className="question-text">Who are help desk agents?</p>
-                        <FaAngleDown />
-                    </div>
-                    {isActive && (<div className="answer-container border-bottom answer-container-active">
-                        <p className="answer-text">Support agents (help desk staff) who will be actively managing and responding to tickets raised by contacts.</p>                    
-                    </div>)}
-                </div> */}
 
             <ul className="whole-question-container">
                 <li className="accordian-container">

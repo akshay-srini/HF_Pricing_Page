@@ -17,7 +17,7 @@ export default function AgentPricing(props) {
         setUnlimitedCategory(option);
     }
     const getAmount = () => {
-        if(props.pricing == 'agent' && agentcategory == 'monthly') {
+        if(props.pricing === 'agent' && agentcategory === 'monthly') {
             return {
                 mighty: 39,
                 fantastic: 59,
@@ -30,7 +30,7 @@ export default function AgentPricing(props) {
 
             }
         } 
-        else if(props.pricing == 'agent' && agentcategory == 'annual') {
+        else if(props.pricing === 'agent' && agentcategory === 'annual') {
             return {
                 mighty: 29,
                 mightySavings: 25,
@@ -42,7 +42,7 @@ export default function AgentPricing(props) {
                 enterprisePlusSavings: 10
             }
         }
-        else if(props.pricing == 'agent' && agentcategory == '2-year') {
+        else if(props.pricing === 'agent' && agentcategory === '2-year') {
             return {
                 mighty: 26,
                 mightySavings: 33,
@@ -54,7 +54,7 @@ export default function AgentPricing(props) {
                 enterprisePlusSavings: 35
             }
         }
-        else if(props.pricing == 'agent' && agentcategory == '3-year') {
+        else if(props.pricing === 'agent' && agentcategory === '3-year') {
             return {
                 mighty: 27,
                 fantastic: 41,
@@ -68,7 +68,7 @@ export default function AgentPricing(props) {
 
             }
         }
-        else if(props.pricing == 'unlimited' && unlimitedcategory == 'annual') {
+        else if(props.pricing === 'unlimited' && unlimitedcategory === 'annual') {
             return {
                 mighty: '1,499',
                 fantastic: '1,999',
@@ -81,7 +81,7 @@ export default function AgentPricing(props) {
 
             }
         }
-        else if(props.pricing == 'unlimited' && unlimitedcategory == '2-year') {
+        else if(props.pricing === 'unlimited' && unlimitedcategory === '2-year') {
             return {
                 mighty: '1,149',
                 mightySavings: 23,
@@ -93,7 +93,7 @@ export default function AgentPricing(props) {
                 enterprisePlusSavings: 20
             }
         }
-        else if(props.pricing == 'unlimited' && unlimitedcategory == '3-year') {
+        else if(props.pricing === 'unlimited' && unlimitedcategory === '3-year') {
             return {
                 mighty: '1,299',
                 fantastic: '1,729',
@@ -112,23 +112,23 @@ export default function AgentPricing(props) {
 
     return (
     <section className='pricing-section'>
-        { props.pricing == 'agent' && 
+        { props.pricing === 'agent' && 
 
             <div className='pricing-container'>
             
-            <button className= {`diff-types ${agentcategory == 'monthly' && `types-active`}`} onClick={() => handleAgentOptionClick('monthly')}>Monthly</button>
-            <button className= {`diff-types ${agentcategory == 'annual' && `types-active`}`} onClick={() => handleAgentOptionClick('annual')}>Annual</button>
-            <button className= {`diff-types ${agentcategory == '2-year' && `types-active`}`} onClick={() => handleAgentOptionClick('2-year')}>2 - Year Saving plan<br></br><span>Paid Up-front</span></button>
-            <button className= {`diff-types ${agentcategory == '3-year' && `types-active`}`} onClick={() => handleAgentOptionClick('3-year')}> 3 - Year Contract<br></br><span>Billed Annually</span></button>
+            <button className= {`diff-types ${agentcategory === 'monthly' && `types-active`}`} onClick={() => handleAgentOptionClick('monthly')}>Monthly</button>
+            <button className= {`diff-types ${agentcategory === 'annual' && `types-active`}`} onClick={() => handleAgentOptionClick('annual')}>Annual</button>
+            <button className= {`diff-types ${agentcategory === '2-year' && `types-active`}`} onClick={() => handleAgentOptionClick('2-year')}>2 - Year Saving plan<br></br><span>Paid Up-front</span></button>
+            <button className= {`diff-types ${agentcategory === '3-year' && `types-active`}`} onClick={() => handleAgentOptionClick('3-year')}> 3 - Year Contract<br></br><span>Billed Annually</span></button>
         </div>
         }
 
-        { props.pricing == 'unlimited' && 
+        { props.pricing === 'unlimited' && 
 
         <div className='pricing-container'>
-        <button className= {`diff-types ${unlimitedcategory == 'annual' && `types-active`}`} onClick={() => handleUnlimitedOptionClick('annual')}>Annual</button>
-        <button className= {`diff-types ${unlimitedcategory == '2-year' && `types-active`}`} onClick={() => handleUnlimitedOptionClick('2-year')}>2 - Year Saving plan<br></br><span>Paid Up-front</span></button>
-        <button className= {`diff-types ${unlimitedcategory == '3-year' && `types-active`}`} onClick={() => handleUnlimitedOptionClick('3-year')}> 3 - Year Contract<br></br><span>Billed Annually</span></button>
+        <button className= {`diff-types ${unlimitedcategory === 'annual' && `types-active`}`} onClick={() => handleUnlimitedOptionClick('annual')}>Annual</button>
+        <button className= {`diff-types ${unlimitedcategory === '2-year' && `types-active`}`} onClick={() => handleUnlimitedOptionClick('2-year')}>2 - Year Saving plan<br></br><span>Paid Up-front</span></button>
+        <button className= {`diff-types ${unlimitedcategory === '3-year' && `types-active`}`} onClick={() => handleUnlimitedOptionClick('3-year')}> 3 - Year Contract<br></br><span>Billed Annually</span></button>
         </div>
         }
 
@@ -173,8 +173,6 @@ export default function AgentPricing(props) {
                 <div className='details-points'><VscCircleSmall className='bullet-points' />SSO (GSuite/SAML/Azure)</div>
                 <div className='details-points'><VscCircleSmall className='bullet-points' />SSL Certificate Hosting</div>
                 <div className='details-points'><VscCircleSmall className='bullet-points' />Migration Assistance</div>
-                <div className='details-points'><VscCircleSmall className='bullet-points' />Migration sdasdas</div>
-
             </div>
             
             <button className='types-button'>Get a Demo <IoIosArrowForward className='arrow' /></button>
