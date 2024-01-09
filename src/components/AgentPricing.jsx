@@ -138,7 +138,7 @@ export default function AgentPricing(props) {
         
         <div className='types-container'>
             <div className="container-box">
-                <div className='type-name'>Mighty</div>
+                {props.pricing === "agent" ? <div className='type-name'>Mighty</div> : <div className='type-name'>Starter</div>}
                 <div className="type-details">
                     <div className='dollar'>$</div>
                     <div className='number'>{mighty}</div>
@@ -158,7 +158,7 @@ export default function AgentPricing(props) {
             <button className='types-button'>Get a Demo <IoIosArrowForward className='arrow' /></button>
             </div>
             <div className="container-box">
-                <div className='type-name'>Fantastic</div>
+            {props.pricing === "agent" ? <div className='type-name'>Fantastic</div> : <div className='type-name'>Growth</div>}
                 <div className="type-details">
                     <div className='dollar'>$</div>
                     <div className='number'>{fantastic}</div>
@@ -180,7 +180,7 @@ export default function AgentPricing(props) {
             
             <div className="container-box">
                 <p className='most-popular'>Most Popular</p>
-                <div className='type-name'>Enterprise</div>
+                {props.pricing === "agent" ? <div className='type-name'>Enterprise</div> : <div className='type-name'>Scale</div>}
                 <div className="type-details">
                     <div className='dollar'>$</div>
                     <div className='number'>{enterprise}</div>
@@ -199,7 +199,7 @@ export default function AgentPricing(props) {
             
             <button className='types-button'>Get a Demo <IoIosArrowForward className='arrow' /></button>
             </div><div className="container-box">
-                <div className='type-name'>Enterprise Plus</div>
+            {props.pricing === "agent" ? <div className='type-name'>Enterprise Plus</div> : <div className='type-name'>Scale Plus</div>}
                 <div className="type-details">
                     <div className='dollar'>$</div>
                     <div className='number'>{enterprisePlus}</div>

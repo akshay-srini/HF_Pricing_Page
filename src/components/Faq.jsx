@@ -41,16 +41,16 @@ export default function Faq() {
                 </li>
                 <hr className="horizontal-line"/>
                 <li className="accordian-container">
-                    <label htmlFor="fourth" className="question-container">Do you offer discounts for non-profits or educational institutes?<FaAngleDown /></label>
-                    <input type="checkbox" name="accordian" id="fourth" />
+                    <label htmlFor="five" className="question-container">Do you offer discounts for non-profits or educational institutes?<FaAngleDown /></label>
+                    <input type="checkbox" name="accordian" id="five" />
                     <div className="content">
                         <p className="answer-text">We offer a 10% discount on annual subscriptions on any plan.</p>
                     </div>  
                 </li>
                 <hr className="horizontal-line"/>
                 <li className="accordian-container">
-                    <label htmlFor="fourth" className="question-container">What are the available billing cycles?<FaAngleDown /></label>
-                    <input type="checkbox" name="accordian" id="fourth" />
+                    <label htmlFor="sixth" className="question-container">What are the available billing cycles?<FaAngleDown /></label>
+                    <input type="checkbox" name="accordian" id="sixth" />
                     <div className="content">
                         <p className="answer-text">We offer a monthly, annual, 2-year savings plan (paid upfront), and 3-year contract for agent-based pricing.</p>
                     </div>  
