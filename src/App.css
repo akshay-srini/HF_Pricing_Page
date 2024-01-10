@@ -785,14 +785,15 @@ tr:nth-child(odd) {
   flex-direction: column ;
   justify-content: start;
   align-items: center;
-  padding-bottom: 30px ;
+  margin-bottom: 50px;
+  /* margin-right: 20px; */
   transition: background-color 0.3s ease-in-out;
 }
 
 .more-products-container:hover {
   box-shadow: 6px 107px 114px -40px rgba(140,149,159,0.3);
   border-radius: 10px;
-  border: 0.5px solid black;
+  border: 0.2px solid black;
 }
 
 
