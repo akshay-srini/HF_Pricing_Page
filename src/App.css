@@ -10,6 +10,11 @@
 }
 
 
+@font-face {
+  font-family: 'Hero New SemiBold';
+  src: local('Hero New SemiBold'), url('/Users/happyfox/Documents/GitHub/HF_Pricing_Page/src/css/fonts/Hero New SemiBold.woff') format('woff');
+}
+
 
 body{
   margin: 0;
@@ -64,7 +69,7 @@ a{
 .navigation-container {
     display: flex;
     margin: 0% 5%;
-    margin-top: 8px;
+    margin-top: 5px;
     padding: 0%;
     align-items: center;
 }
@@ -103,10 +108,13 @@ a{
 
 
 .helpdesk{
+  position: sticky;
+  top: 0; 
+  z-index: 11;
   background-color: #ffecec;
   border: 1px solid rgb(255 58 58 / 20%);
   display: flex;
-  padding: 1.5% 0%;
+  padding: 1% 0%;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
@@ -152,7 +160,7 @@ a{
 
 .product-name{
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 600;
   padding: 0% 2%;
   color: #000;
 }
@@ -511,8 +519,14 @@ a{
 } */
 
 .table-header{
-  padding: 5%;
+  /* padding: 3%; */
+  position: sticky;
+  width: 100%;
+  top: 10%;
+  z-index: 10;
+  background: #fff;
 }
+
 
 
 
@@ -526,19 +540,20 @@ a{
 }
 
 th, td {
-  padding: 15px 35px;
+  padding: 10px 20px;
   text-align: left;
 }
 
 th {
   font-size: 20px;
   font-weight: bolder;
-  padding: 3%;
+  padding: 2%;
   border-bottom: 0.5px solid rgba(152, 157, 173, 0.2);
 }
 
 .table-header{
-  background-color: whit;
+  background-color: white;
+  /* padding: 3%; */
 }
 
 .td-element{
