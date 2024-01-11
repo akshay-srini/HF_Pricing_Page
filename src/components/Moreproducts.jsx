@@ -10,7 +10,7 @@ export default function Moreporducts() {
                     <h3 className="more-products-name">Live Chat</h3>
                     <p className="more-products-details">Chat with your customers instantly on mobile, desktop, and web.</p>
                     <div className="demo-btn">
-                        <a href="" style={{fontWeight: '800'}}>Get a Demo</a>
+                        <a href="#" style={{fontFamily:"hero new semibold", fontWeight:"500"}}>Start free trial</a>
                         <IoIosArrowForward className='arrow' />
                     </div>
                 </div>
@@ -19,7 +19,7 @@ export default function Moreporducts() {
                     <h3 className="more-products-name">Chatbot</h3>
                     <p className="more-products-details">Engage and reach your customers 24x7 with ready-to-go chatbots.</p>
                     <div className="demo-btn">
-                        <a href="">Get a demo</a>
+                        <a href="#" style={{fontFamily:"hero new semibold", fontWeight:"500"}}>Get a demo</a>
                         <IoIosArrowForward className='arrow' />
                     </div>
                 </div><div className="more-products-container spacing-in-box">
@@ -27,7 +27,7 @@ export default function Moreporducts() {
                     <h3 className="more-products-name">Assist AI</h3>
                     <p className="more-products-details">Provide IT support directly from Slack and Microsoft Teams.</p>
                     <div className="demo-btn">
-                        <a href="">Get a demo</a>
+                        <a href="#" style={{fontFamily:"hero new semibold", fontWeight:"500"}}>Get a demo</a>
                         <IoIosArrowForward className='arrow' />
                     </div>
                 </div><div className="more-products-container spacing-in-box">
@@ -35,7 +35,7 @@ export default function Moreporducts() {
                     <h3 className="more-products-name">Business Intelligence</h3>
                     <p className="more-products-details">Turn insight into advantage with cross-functional reports & dashboards.</p>
                     <div className="demo-btn">
-                        <a href="">Get a demo</a>
+                        <a href="#" style={{fontFamily:"hero new semibold", fontWeight:"500"}}>Get a demo</a>
                         <IoIosArrowForward className='arrow' />
                     </div>
                 </div><div className="more-products-container spacing-in-box">
@@ -43,7 +43,7 @@ export default function Moreporducts() {
                     <h3 className="more-products-name">Workflow Automation</h3>
                     <p className="more-products-details">Reduce the grunt work with end-to-end process automation.</p>
                     <div className="demo-btn">
-                        <a href="">Get a demo</a>
+                        <a href="#" style={{fontFamily:"hero new semibold", fontWeight:"500"}}>Get a demo</a>
                         <IoIosArrowForward className='arrow' />
                     </div>
                 </div>

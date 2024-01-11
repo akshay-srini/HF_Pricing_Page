@@ -1,4 +1,5 @@
 import '../App.css';
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { MdOutlineArrowDropDown } from "react-icons/md";
 
 
@@ -18,25 +19,26 @@ export default function Navigation() {
           </div>
         </div>
           <div className="helpdesk">
-              <div>
+              <div className='helpdesk-container'>
+              <faBars />
                 <img className='product-' src="//assets.www.happyfox.com/v2/images/site-nav/HD-logo.svg" alt="Helpdesk" />
                 <a href="#" className='product-name-main'>helpdesk</a>
               </div>
             <ul className='features-section'>
               <li classname="product-details">
-                <a href="#" className='product-name'>Features</a>
-                <MdOutlineArrowDropDown />
+                <a href="#" className='product-name'>Features<MdOutlineArrowDropDown /></a>
+                
               </li>
               <li classname="product-details">
-                <a href="#" className='product-name'>Solutions</a>
-                <MdOutlineArrowDropDown />
+                <a href="#" className='product-name'>Solutions<MdOutlineArrowDropDown /></a>
+                
               </li>
               <li classname="product-details">
                 <a href="#" className='product-name'>Pricing</a>
               </li>
               <li classname="product-details">
-                <a href="#" className='product-name'>Resources</a>
-                <MdOutlineArrowDropDown />
+                <a href="#" className='product-name'>Resources <MdOutlineArrowDropDown /></a>
+               
             </li>
           </ul>
               <button className='demo-button'>
