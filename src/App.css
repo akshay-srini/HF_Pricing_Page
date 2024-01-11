@@ -6,12 +6,12 @@
 
 @font-face {
   font-family: 'Hero New Regular';
-  src: local('Hero New Regular'), url('/Users/happyfox/Documents/GitHub/HF_Pricing_Page/src/css/fonts/Hero New Regular.woff') format('woff');
+  src: local('Hero New Regular'), url('./css/fonts/Hero New Regular.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Hero New SemiBold';
-  src: local('Hero New SemiBold'), url('/Users/happyfox/Documents/GitHub/HF_Pricing_Page/src/css/fonts/Hero New SemiBold.woff') format('woff');
+  src: local('Hero New SemiBold'), url('./css/fonts/Hero New SemiBold.woff') format('woff');
 } 
 
 

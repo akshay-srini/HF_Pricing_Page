@@ -1,5 +1,5 @@
 import '../App.css';
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+// import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { MdOutlineArrowDropDown } from "react-icons/md";
 
 
@@ -20,7 +20,7 @@ export default function Navigation() {
         </div>
           <div className="helpdesk">
               <div className='helpdesk-container'>
-              <faBars />
+              {/* <faBars /> */}
                 <img className='product-' src="//assets.www.happyfox.com/v2/images/site-nav/HD-logo.svg" alt="Helpdesk" />
                 <a href="#" className='product-name-main'>helpdesk</a>
               </div>
