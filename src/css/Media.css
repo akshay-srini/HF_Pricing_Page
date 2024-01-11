@@ -47,6 +47,12 @@
         width: 100%;
         box-sizing: border-box;
       }
+    .table-header{
+      position: relative;
+      width: 100%;
+      top: 10%;
+      z-index: 10;
+    }
 }
 
 @media screen and (max-width: 456px) {
