@@ -2,19 +2,24 @@
 .h1,h2,h3,h4,h5,h6 {
   margin: 0;
   padding: 0;
-
 }
+
+@font-face {
+  font-family: 'Hero New Regular';
+  src: local('Hero New Regular'), url('/Users/happyfox/Documents/GitHub/HF_Pricing_Page/src/css/fonts/Hero New Regular.woff') format('woff');
+}
+
 
 
 body{
   margin: 0;
   padding: 0;
-
+  font-family: 'Hero New Regular';
 }
 
-p{
+/* p{
   text-align: center;
-}
+} */
 
 ul{
   list-style: none;
@@ -41,7 +46,7 @@ a{
 
 .container{
   margin: 0% 0%;
-  font-family: poppins;
+  /* font-family: 'hero-new', sans-serif; */
 }
 
 .title-name {
@@ -51,12 +56,15 @@ a{
 }
 
 .navigation-img{
+  display: flex;
+  align-items: center;
   padding: 1%;
 }
 
 .navigation-container {
     display: flex;
     margin: 0% 5%;
+    margin-top: 8px;
     padding: 0%;
     align-items: center;
 }
@@ -64,7 +72,7 @@ a{
 .products {
   border: 1px solid black;
   margin: 0% 2%;
-  padding: 1% 1.5%;
+  padding: 1.2% 1.5%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -77,7 +85,7 @@ a{
 
 .products-link{
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .login-container{
@@ -182,7 +190,7 @@ a{
 .hero-title{
   font-size: 40px;
   color: black;
-  font-weight: 500;
+  font-weight: 800;
   margin: 80px 0 76px;
 }
 
@@ -206,6 +214,10 @@ a{
   border-top-right-radius: 16px;
   border-top-left-radius: 16px;
   transition: background-color 0.3s ease-in-out;
+}
+
+.category-box a{
+  font-weight: 600;
 }
 
 .category-box:hover{
@@ -514,7 +526,6 @@ a{
 }
 
 th, td {
-
   padding: 15px 35px;
   text-align: left;
 }
@@ -608,10 +619,11 @@ tr:nth-child(odd) {
   align-items: center;
   justify-content:center;
   flex: 0 0 100%;
+  /* width: 90%; */
   max-width: 100%;
   /* gap: 20px; */
   flex-wrap: wrap;
-  margin: 3%;
+  margin: auto;
 }
 
 .spacing-in-box{
@@ -708,6 +720,7 @@ tr:nth-child(odd) {
   font-size: 16px;
   padding: 10px 0px;
   font-weight: 800;
+  text-align: left;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
