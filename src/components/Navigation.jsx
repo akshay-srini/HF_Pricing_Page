@@ -21,7 +21,7 @@ export default function Navigation() {
           <div className="helpdesk">
               <div className='helpdesk-container'>
               {/* <faBars /> */}
-                <img className='product-' src="//assets.www.happyfox.com/v2/images/site-nav/HD-logo.svg" alt="Helpdesk" />
+                <img className='product' src="//assets.www.happyfox.com/v2/images/site-nav/HD-logo.svg" alt="Helpdesk" />
                 <a href="#" className='product-name-main'>helpdesk</a>
               </div>
             <ul className='features-section'>
