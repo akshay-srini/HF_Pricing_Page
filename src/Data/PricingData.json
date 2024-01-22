@@ -1,0 +1,405 @@
+{
+  "pricing": [
+    {
+      "pricing-plan-name": "Agent-Based pricing",
+      "pricing-details": [
+        {
+          "pricing-method": "Monthly",
+          "pricing-types": {
+            "Mighty": [
+              {
+                "amount": 39,
+                "savings": 0,
+                "description-points": [
+                  "Omnichannel Ticket Creation",
+                  "SLA Management",
+                  "Knowledge Base",
+                  "SSO (GSuite/SAML/Azure)",
+                  "SSL Certificate Hosting",
+                  "Migration Assistance"
+                ]
+              }
+            ],
+            "Fantastic": [
+              {
+                "amount": 59,
+                "savings": 0,
+                "description-points": [
+                  "Everything in Mighty",
+                  "Multi-brand Helpdesk",
+                  "SLA Breach Notification",
+                  "Custom Ticket Queues",
+                  "24/7 Email Support",
+                  "Optional EU Data Center"
+                ]
+              }
+            ],
+            "Enterprise": [
+              {
+                "amount": 79,
+                "savings": 0,
+                "description-points": [
+                  "Everything in Fantastic",
+                  "Proactive Agent Collision",
+                  "Task Management",
+                  "Asset Management",
+                  "24/7 Email/Chat Support",
+                  "Uptime SLA"
+                ]
+              }
+            ],
+            "Enterprise Plus": [
+              {
+                "amount": 99,
+                "savings": 0,
+                "description-points": [
+                  "Everything in Enterprise",
+                  "Agent Scripting",
+                  "2 TB Attachment Store",
+                  "All-time Reporting History",
+                  "24/7 Email/Chat/Phone Support",
+                  "Customer Success Manager"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "pricing-method": "Annual",
+          "pricing-types": {
+            "Mighty": [
+              {
+                "amount": 29,
+                "savings": 25,
+                "description-points": [
+                  "Omnichannel Ticket Creation",
+                  "SLA Management",
+                  "Knowledge Base",
+                  "SSO (GSuite/SAML/Azure)",
+                  "SSL Certificate Hosting",
+                  "Migration Assistance"
+                ]
+              }
+            ],
+            "Fantastic": [
+              {
+                "amount": 49,
+                "savings": 16,
+                "description-points": [
+                  "Everything in Mighty",
+                  "Multi-brand Helpdesk",
+                  "SLA Breach Notification",
+                  "Custom Ticket Queues",
+                  "24/7 Email Support",
+                  "Optional EU Data Center"
+                ]
+              }
+            ],
+            "Enterprise": [
+              {
+                "amount": 69,
+                "savings": 12,
+                "description-points": [
+                  "Everything in Fantastic",
+                  "Proactive Agent Collision",
+                  "Task Management",
+                  "Asset Management",
+                  "24/7 Email/Chat Support",
+                  "Uptime SLA"
+                ]
+              }
+            ],
+            "Enterprise Plus": [
+              {
+                "amount": 89,
+                "savings": 10,
+                "description-points": [
+                  "Everything in Enterprise",
+                  "Agent Scripting",
+                  "2 TB Attachment Store",
+                  "All-time Reporting History",
+                  "24/7 Email/Chat/Phone Support",
+                  "Customer Success Manager"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "pricing-method": "2-Year Savings Plan Paid Upfront",
+          "pricing-types": {
+            "Mighty": [
+              {
+                "amount": 26,
+                "savings": 33,
+                "description-points": [
+                  "Omnichannel Ticket Creation",
+                  "SLA Management",
+                  "Knowledge Base",
+                  "SSO (GSuite/SAML/Azure)",
+                  "SSL Certificate Hosting",
+                  "Migration Assistance"
+                ]
+              }
+            ],
+            "Fantastic": [
+              {
+                "amount": 39,
+                "savings": 34,
+                "description-points": [
+                  "Everything in Mighty",
+                  "Multi-brand Helpdesk",
+                  "SLA Breach Notification",
+                  "Custom Ticket Queues",
+                  "24/7 Email Support",
+                  "Optional EU Data Center"
+                ]
+              }
+            ],
+            "Enterprise": [
+              {
+                "amount": 52,
+                "savings": 34,
+                "description-points": [
+                  "Everything in Fantastic",
+                  "Proactive Agent Collision",
+                  "Task Management",
+                  "Asset Management",
+                  "24/7 Email/Chat Support",
+                  "Uptime SLA"
+                ]
+              }
+            ],
+            "Enterprise Plus": [
+              {
+                "amount": 64,
+                "savings": 35,
+                "description-points": [
+                  "Everything in Enterprise",
+                  "Agent Scripting",
+                  "2 TB Attachment Store",
+                  "All-time Reporting History",
+                  "24/7 Email/Chat/Phone Support",
+                  "Customer Success Manager"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "pricing-method": "3-Year Contract Billed Annually",
+          "pricing-types": {
+            "Mighty": [
+              {
+                "amount": 27,
+                "savings": 30,
+                "description-points": [
+                  "Omnichannel Ticket Creation",
+                  "SLA Management",
+                  "Knowledge Base",
+                  "SSO (GSuite/SAML/Azure)",
+                  "SSL Certificate Hosting",
+                  "Migration Assistance"
+                ]
+              }
+            ],
+            "Fantastic": [
+              {
+                "amount": 41,
+                "savings": 30,
+                "description-points": [
+                  "Everything in Mighty",
+                  "Multi-brand Helpdesk",
+                  "SLA Breach Notification",
+                  "Custom Ticket Queues",
+                  "24/7 Email Support",
+                  "Optional EU Data Center"
+                ]
+              }
+            ],
+            "Enterprise": [
+              {
+                "amount": 55,
+                "savings": 30,
+                "description-points": [
+                  "Everything in Fantastic",
+                  "Proactive Agent Collision",
+                  "Task Management",
+                  "Asset Management",
+                  "24/7 Email/Chat Support",
+                  "Uptime SLA"
+                ]
+              }
+            ],
+            "Enterprise Plus": [
+              {
+                "amount": 69,
+                "savings": 30,
+                "description-points": [
+                  "Everything in Enterprise",
+                  "Agent Scripting",
+                  "2 TB Attachment Store",
+                  "All-time Reporting History",
+                  "24/7 Email/Chat/Phone Support",
+                  "Customer Success Manager"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "pricing-plan-name": "Unlimited Pricing",
+      "pricing-details": [
+        {
+          "pricing-method": "Annual",
+          "pricing-types": {
+            "Starter": [
+              {
+                "amount": 1499,
+                "savings": 0,
+                "description-points": [
+                  "Unlimited Agents",
+                  "10,000 Tickets / year",
+                  "10 Custom Fields"
+                ]
+              }
+            ],
+            "Growth": [
+              {
+                "amount": 1999,
+                "savings": 0,
+                "description-points": [
+                  "Unlimited Agents",
+                  "20,000 Tickets / year",
+                  "20 Custom Fields"
+                ]
+              }
+            ],
+            "Scale": [
+              {
+                "amount": "2,999",
+                "savings": 0,
+                "description-points": [
+                  "Unlimited Agents",
+                  "100,000 Tickets / year",
+                  "100 Custom Fields"
+                ]
+              }
+            ],
+            "Scale Plus": [
+              {
+                "amount": 4999,
+                "savings": 0,
+                "description-points": [
+                  "Unlimited Agents",
+                  "200,000 Tickets / year",
+                  "200 Custom Fields"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "pricing-method": "2-Year Savings Plan Paid Up-Front",
+          "pricing-types": {
+            "Starter": [
+              {
+                "amount": 1149,
+                "savings": 23,
+                "description-points": [
+                  "Unlimited Agents",
+                  "10,000 Tickets / year",
+                  "10 Custom Fields"
+                ]
+              }
+            ],
+            "Growth": [
+              {
+                "amount": 1599,
+                "savings": 20,
+                "description-points": [
+                  "Unlimited Agents",
+                  "20,000 Tickets / year",
+                  "20 Custom Fields"
+                ]
+              }
+            ],
+            "Scale": [
+              {
+                "amount": 2399,
+                "savings": 20,
+                "description-points": [
+                  "Unlimited Agents",
+                  "100,000 Tickets / year",
+                  "100 Custom Fields"
+                ]
+              }
+            ],
+            "Scale Plus": [
+              {
+                "amount": 3999,
+                "savings": 20,
+                "description-points": [
+                  "Unlimited Agents",
+                  "200,000 Tickets / year",
+                  "200 Custom Fields"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "pricing-method": "3-Year Contract Billed Annually",
+          "pricing-types": {
+            "Starter": [
+              {
+                "amount": 1149,
+                "savings": 23,
+                "description-points": [
+                  "Unlimited Agents",
+                  "10,000 Tickets / year",
+                  "10 Custom Fields"
+                ]
+              }
+            ],
+            "Growth": [
+              {
+                "amount": 1599,
+                "savings": 20,
+                "description-points": [
+                  "Unlimited Agents",
+                  "20,000 Tickets / year",
+                  "20 Custom Fields"
+                ]
+              }
+            ],
+            "Scale": [
+              {
+                "amount": 2399,
+                "savings": 20,
+                "description-points": [
+                  "Unlimited Agents",
+                  "100,000 Tickets / year",
+                  "100 Custom Fields"
+                ]
+              }
+            ],
+            "Scale Plus": [
+              {
+                "amount": 3999,
+                "savings": 20,
+                "description-points": [
+                  "Unlimited Agents",
+                  "200,000 Tickets / year",
+                  "200 Custom Fields"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

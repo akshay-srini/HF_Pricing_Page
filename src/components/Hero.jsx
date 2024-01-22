@@ -1,29 +1,40 @@
-import '../App.css';
-import {useState} from 'react';
-import AgentPricing from './AgentPricing';
+import "../App.css";
+import { useState } from "react";
+import AgentPricing from "./AgentPricing";
+import PricingData from "../Data/PricingData.json";
+import react from "react";
 
 export default function Hero() {
-    const [pricing, setPricing] = useState('agent');
-    const handleOptionClick = (option) => {
-        console.log(option);
-        setPricing(option);
-      };
-      
-    return (
-        <>
-    <section className='hero-section'>
-        <h1 className='hero-title'>Plans & Pricing</h1>
-        <ul className='category-container'>
-            <li className= {`category-box ${pricing === 'agent' && `box-active`}`} onClick={() => handleOptionClick('agent')}>
-                <a href="#">Agent-based pricing</a>
-            </li>
-            <li className= {`category-box ${pricing === 'unlimited' && `box-active`}`} onClick={() => handleOptionClick('unlimited')}>
-                <a href="#">Unlimited Agents</a>
-            </li>
+  const [pricing, setPricing] = useState(0);
+  const handleOptionClick = (option) => {
+    console.log("Agents",option);
+    setPricing(option);
+  };
+
+  return (
+    <>
+      <section className="hero-section">
+        <h1 className="hero-title">Plans & Pricing</h1>
+        <ul className="category-container">
+          <li
+            className={`category-box ${
+              pricing === 0 && `box-active`
+            }`}
+            onClick={() => handleOptionClick(0)}
+          >
+            <a href="#">{PricingData.pricing[0]["pricing-plan-name"]}</a>
+          </li>
+          <li
+            className={`category-box ${
+              pricing === 1 && `box-active`
+            }`}
+            onClick={() => handleOptionClick(1)}
+          >
+            <a href="#">{PricingData.pricing[1]["pricing-plan-name"]}</a>
+          </li>
         </ul>
-    </section>
-    <AgentPricing pricing={pricing} />
+      </section>
+      <AgentPricing pricing={pricing} />
     </>
-    );
-  }
-  
+  );
+}
